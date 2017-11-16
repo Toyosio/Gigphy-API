@@ -1,4 +1,4 @@
-var eighties = ["80s movies", "80s fashion", "80s shows", "80s music", "80s hair", "alfie", "80s electronics", "80s commercials", "80s art", "80s comedy", "80s dance", "80s horor", "80s toys", "80s jokes"]
+var eighties = ["80s movies", "80s fashion", "80s shows", "80s music", "80s hair", "alfie", "80s electronics", "80s commercials", "80s art", "80s comedy", "80s dance", "80s toys"]
 
 var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=hAzUG1kNyCQotsbFDUbozNHAA3eGGibO&q=80s&limit=10&offset=0&rating=PG-13&lang=en";
 
