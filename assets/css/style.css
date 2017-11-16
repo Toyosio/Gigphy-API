@@ -1,0 +1,32 @@
+body {
+    background-image: url('https://cdn.vectorstock.com/i/1000x1000/84/81/retro-80s-seamless-pattern-background-vector-5538481.jpg');
+}
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #E65100;
+    font-family: 'Bungee Inline',
+    cursive;
+}
+.jumbotron {
+    background-image: url('https://cdn.vectorstock.com/i/1000x1000/84/81/retro-80s-seamless-pattern-background-vector-5538481.jpg');
+    color: #CD5C5C;
+    text-align: center;
+    font-family: 'Bungee Inline',
+    cursive;
+}
+#social {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: black;
+}
+#copyrite {
+    text-align: center;
+    color: #17202A;
+}
+#searchsomething {
+    color: #17202A;
+    font-family: 'Bungee Inline',
+    cursive;
+}
