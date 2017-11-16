@@ -42,7 +42,7 @@ $(".button").on("click", function (event) {
 function queryNewKeyword() {
     $(".btn").on("click", function () {
         $("#eighties").html(" ");
-        queryURL = "https: //api.giphy.com/v1/gifs/search?q=" + $(this).text() + "api_key=hAzUG1kNyCQotsbFDUbozNHAA3eGGibO&q=80s&limit=10&offset=0&rating=PG-13&lang=en";
+        queryURL = "https://api.giphy.com/v1/gifs/search?q=" + $(this).text()+"&api_key=hAzUG1kNyCQotsbFDUbozNHAA3eGGibO&q=80s&limit=10&offset=0&rating=PG-13&lang=en";
 
         $.ajax({
 
@@ -61,5 +61,4 @@ $(document).ready(function () {
 
     toyFunction();
     queryNewKeyword();
-
 })

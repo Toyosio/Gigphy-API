@@ -25,8 +25,14 @@ h3 {
     text-align: center;
     color: #17202A;
 }
-#searchsomething {
+#eighties-input1 {
     color: #17202A;
+    font-weight: bold;
+    background-color: #E65100;
     font-family: 'Bungee Inline',
     cursive;
+}
+
+.button {
+    padding-right: 10px;
 }
