@@ -25,7 +25,7 @@ $("#addone").on("click", function (event) {
 //give button a value; When button is clicked, Gif appears
 $(document).on("click", "button", function () {
     var gifValue = $(this).attr("data-name");
-    //console.log(gifValue);
+    console.log(gifValue);
     $("#eighties").html(" ");
     queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifValue + "&api_key=hAzUG1kNyCQotsbFDUbozNHAA3eGGibO&q=80s&limit=10&offset=0&rating=PG-13&lang=en";
 
