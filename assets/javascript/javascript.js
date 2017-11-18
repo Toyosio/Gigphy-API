@@ -34,7 +34,7 @@ $(document).on("click", "button", function () {
         url: queryURL,
         method: "GET"
     }).done(function (response) {
-        for (var i = 0; i < response.data.length; i += 10) {
+        for (var i = 0; i < response.data.length; i += 1) {
             $("#eighties").append('<p>Rating: ' + response.data[i].rating + '</p><br><img src="' + response.data[i].images.fixed_height_still.url + '"data-still="' + response.data[i].images.fixed_height_still.url + '" data-animate="' + response.data[i].images.fixed_height.url + '"data-state="still"class="gif"onclick="' + clickOnImgs() + '">');
             console.log(response);
         }
@@ -43,8 +43,8 @@ $(document).on("click", "button", function () {
 
 //Give button it's data state (Attribute still and animated state to each button??)
 function clickOnImgs() {
+    var gifState = $(this).attr("data-state");
     $("#eighties").on("click", function (event) {
-        var gifState = $(this).attr("data-state");
         if ("state === still") {
             $(this).attr("src", $(this).attr("data-animate"));
             $(this).attr("data-state", "animate");

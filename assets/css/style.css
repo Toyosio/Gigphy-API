@@ -1,5 +1,6 @@
 body {
     background-image: url('https://cdn.vectorstock.com/i/1000x1000/84/81/retro-80s-seamless-pattern-background-vector-5538481.jpg');
+    background-attachment: fixed;
 }
 h3 {
     font-size: 25px;
